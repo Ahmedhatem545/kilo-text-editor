@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <termios.h>
 #include <unistd.h>
+#include <sys/ioctl.h>
 
 /*** defines ****/
 #define CTRL_KEY(k) ((k) & 0x1f)
